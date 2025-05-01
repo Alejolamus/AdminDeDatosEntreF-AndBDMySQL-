@@ -13,8 +13,8 @@
     <Compile Include="DataTypes\EstimadoresDeRegresionL.fs" />
     <Compile Include="ProcesadoresDeListArray\SumadoresDeVentasArray.fs" />
     <Compile Include="ProcesadoresDeListArray\CreadorDeArrayProd.fs" />
-    <Compile Include="Math\EstimadoresDePredicionPorRegresionL.fs" />
     <Compile Include="Math\RegrecionLineaProdUnico.fs" />
+    <Compile Include="Math\EstimadoresDePredicionPorRegresionL.fs" />
     <Compile Include="Math\RegresionesAllProductosBD.fs" />
     <Compile Include="DatosParaTestBD\CreadorDeListasTestBD.fs" />
     <Compile Include="Library.fs" />

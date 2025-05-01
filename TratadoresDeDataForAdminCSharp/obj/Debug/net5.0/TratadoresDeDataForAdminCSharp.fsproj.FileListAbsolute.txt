@@ -1,0 +1,17 @@
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\TratadoresDeDataForAdminCSharp.deps.json
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\TratadoresDeDataForAdminCSharp.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\TratadoresDeDataForAdminCSharp.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\TratadoresDeDataForAdminCSharp.xml
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\ConsulasInBdMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\Models.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\ConsulasInBdMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\Models.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\bin\Debug\net5.0\BaseDeDatosMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.fsproj.AssemblyReference.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.AssemblyInfoInputs.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.AssemblyInfo.fs
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.fsproj.CopyComplete
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.xml
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\TratadoresDeDataForAdminCSharp\obj\Debug\net5.0\TratadoresDeDataForAdminCSharp.pdb

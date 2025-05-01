@@ -1,0 +1,17 @@
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\ConsulasInBdMySql.deps.json
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\ConsulasInBdMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\ref\ConsulasInBdMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\ConsulasInBdMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\Models.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\BaseDeDatosMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\bin\Debug\net5.0\Models.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.csproj.AssemblyReference.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.AssemblyInfoInputs.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.AssemblyInfo.cs
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.csproj.CoreCompileInputs.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.csproj.CopyComplete
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ref\ConsulasInBdMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\ConsulasInBdMySql\obj\Debug\net5.0\ConsulasInBdMySql.pdb

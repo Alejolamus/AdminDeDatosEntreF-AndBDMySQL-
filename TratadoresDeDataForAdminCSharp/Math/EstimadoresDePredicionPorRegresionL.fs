@@ -51,5 +51,6 @@ module EstudioMAERMSER2 =
             MAE = MAEReg
             RMSE = RMSEReg
             CoeficienteDeDeterminacion = CocienteDeterminacionReg
+            Ndias = datosRegProd.[0].DiasUsed
         }
         resultado

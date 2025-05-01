@@ -5,4 +5,5 @@ type RegistroDeRegresion = {
     Ecuacion: string
     Pendiente: float
     EjeY: float
+    NDias: int
 }

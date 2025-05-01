@@ -8,4 +8,5 @@ type RegistroMXByVentas = {
     EjeY: float
     Fecha: DateTime
     Cantidad: int
+    DiasUsed: int
 }

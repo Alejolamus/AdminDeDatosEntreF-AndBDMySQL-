@@ -49,5 +49,6 @@ module EstudioRegresion =
             Ecuacion = ecuacion
             Pendiente = pendienteRegresion
             EjeY = intercepto
+            NDias = n
         }
         resultado

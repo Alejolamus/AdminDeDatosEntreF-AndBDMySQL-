@@ -1,7 +1,7 @@
 ﻿namespace RegresionesAllProductosBD
 
 module CalculadorDeRegresiones =
-    open ConsulasInBdMySql.ConsultasForfSharp
+
     open Models
     open DataTypes.EstimadoresDeRegresionL
     open SumadoresDeVentasArray.SumadorVentasMismoDia
@@ -13,13 +13,8 @@ module CalculadorDeRegresiones =
  
     // crear array de array de RegistroVentaDia datapype f#
     let CrearRegresiones (datosprod: List<List<RegistroVenta>>) :ResizeArray<EstimadoresReg> =
-        // Ejecutar el método estático
-        ArreglosVentasAllProduc.Ejecutar()
-        
-        // Obtener la lista
-        let lista = ArreglosVentasAllProduc.ListaGlobalVentasProductos
-        let listaConvertida = List.ofSeq lista |> List.map List.ofSeq
-        let listaTratada = CrearArregloProd listaConvertida // arregla la lista a un resizearray<resizearray<registroventadia>>
+       
+        let listaTratada = CrearArregloProd datosprod // arregla la lista a un resizearray<resizearray<registroventadia>>
         let ListasDeEstimadores = ResizeArray<EstimadoresReg>()
         for i in listaTratada do   
             let ListaTratadaSum = SumVentDay i // suma las cantidasdes dejando solo un registro por fecha y su total
@@ -33,6 +28,7 @@ module CalculadorDeRegresiones =
                     EjeY = regresionProd.EjeY
                     Fecha = k.Fecha
                     Cantidad =k.Cantidad
+                    DiasUsed = regresionProd.NDias
                 }
                 arrayEstimadors.Add(objetoparestimar)
             let estimadoresProd = calcularEstimadoresR arrayEstimadors// arroja un EstimadoresReg
@@ -44,6 +40,7 @@ module CalculadorDeRegresiones =
                 MAE = estimadoresProd.MAE
                 RMSE = estimadoresProd.RMSE
                 CoeficienteDeDeterminacion = estimadoresProd.CoeficienteDeDeterminacion
+                Ndias = regresionProd.NDias
             }
             ListasDeEstimadores.Add(resultado)
         ListasDeEstimadores

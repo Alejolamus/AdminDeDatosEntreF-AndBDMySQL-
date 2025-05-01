@@ -7,5 +7,6 @@ type EstimadoresReg = {
     EjeY: float;
     MAE: float;
     RMSE: float;
-    CoeficienteDeDeterminacion: float
+    CoeficienteDeDeterminacion: float;
+    Ndias: int
 }

@@ -1,0 +1,15 @@
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\BaseDeDatosMySql.deps.json
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\BaseDeDatosMySql.runtimeconfig.json
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\BaseDeDatosMySql.runtimeconfig.dev.json
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\ref\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\bin\Debug\net5.0\BaseDeDatosMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.csproj.AssemblyReference.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.AssemblyInfoInputs.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.AssemblyInfo.cs
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.csproj.CoreCompileInputs.cache
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\ref\BaseDeDatosMySql.dll
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.pdb
+C:\Users\Jhon Lamus\source\repos\AdminBDControlVentasAndRelacionados\BaseDeDatosMySql\obj\Debug\net5.0\BaseDeDatosMySql.genruntimeconfig.cache

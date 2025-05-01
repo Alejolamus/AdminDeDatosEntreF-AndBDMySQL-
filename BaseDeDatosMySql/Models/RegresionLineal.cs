@@ -24,6 +24,8 @@ namespace BaseDeDatosMySql.Models
         public float Ejey { get; set; }
         [Required]
         public DateTime Fecha { get; set; }
+        [Required]
+        public int CantidadDay { get; set; }
         public List<DatosComparativosDiasAnteriores> DatosComparativosDiasAnteriore { get; set; } = new List<DatosComparativosDiasAnteriores>();
         public List<DatosComparativosDiasSiguientes> DatosComparativosDiasSiguientes { get; set; } = new List<DatosComparativosDiasSiguientes>();
     }
