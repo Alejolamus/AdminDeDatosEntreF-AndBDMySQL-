@@ -18,6 +18,7 @@ namespace BaseDeDatosMySql.Context
         public DbSet<RegresionLineal> RegresionesLineales { get; set; }
         public DbSet<DatosComparativosDiasSiguientes> DatosComparativosDiasSiguientes { get; set; }
         public DbSet<DatosComparativosDiasAnteriores> DatosComparativosDiasAnteriores { get; set; }
+        public DbSet<PredicDifRealFaltante> PredicDifRealFaltantes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

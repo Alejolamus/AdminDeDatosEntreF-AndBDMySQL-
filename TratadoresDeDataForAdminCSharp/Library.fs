@@ -1,7 +1,4 @@
-﻿
-
-
-namespace TratadoresDeDataForAdminCSharp
+﻿namespace TratadoresDeDataForAdminCSharp
 
 module DataBDtest =
     open DatosParaTestBD.CreadorDeListasTestBD
@@ -39,35 +36,54 @@ module DataTratadaForCSharp =
     open ConsulasInBdMySql.ConsultasForfSharp
     open RegresionesAllProductosBD.CalculadorDeRegresiones
     open DataTypes.EstimadoresDeRegresionL
-    // Ejecutar el método estático
+    open System
+    // Ejecutar método que llena lista global de ventas por producto
     ArreglosVentasAllProduc.Ejecutar()
     
-    // Obtener la lista
+    // Convertimos la lista a un formato usable
     let lista = ArreglosVentasAllProduc.ListaGlobalVentasProductos
     let listaConvertida = List.ofSeq lista |> List.map List.ofSeq
-    let ListasEstimadoresP = CrearRegresiones listaConvertida
-    let Listproductos = ResizeArray<string>()
-    let Listecuaciones = ResizeArray<string>()
-    let Listpendientes = ResizeArray<float>()
-    let ListejeY= ResizeArray<float>()
-    let ListMAE = ResizeArray<float>()
-    let ListRMSE = ResizeArray<float>()
-    let ListCoeDeterminacion = ResizeArray<float>()
-    let ListCantidadDays =ResizeArray<int>()
-    for i in ListasEstimadoresP do 
-        let prod = i.Producto
-        let ecuacion = i.Ecuacion
-        let pendiente = i.Pendiente
-        let ejey = i.EjeY
-        let mae = i.MAE
-        let rmse = i.RMSE
-        let coe = i.CoeficienteDeDeterminacion
-        let NumDay = i.Ndias
-        Listproductos.Add(prod)
-        Listecuaciones.Add(ecuacion) 
-        Listpendientes.Add(pendiente)
-        ListejeY.Add(ejey)
-        ListMAE.Add(mae)
-        ListRMSE.Add(rmse)
-        ListCoeDeterminacion.Add(coe)
-        ListCantidadDays.Add(NumDay)
+    // Dado que CrearRegresiones retorna (a,b,c) List defino fun para extraer la lista decesada
+    let fst3 (a, _, _) = a
+    let snd3 (_, b, _) = b
+    let trd3 (_, _, c) = c
+    // Calculamos estimadores para todos los productos
+    let DataForTablesAnalytics = CrearRegresiones listaConvertida // ojoaca ya retorna 3 listas rev code
+    let ListasEstimadoresP = fst3 DataForTablesAnalytics
+    // Creamos listas públicas accesibles desde C#
+    let public Listproductos = ResizeArray<string>()
+    let public Listecuaciones = ResizeArray<string>()
+    let public Listpendientes = ResizeArray<float>()
+    let public ListejeY = ResizeArray<float>()
+    let public ListMAE = ResizeArray<float>()
+    let public ListRMSE = ResizeArray<float>()
+    let public ListCoeDeterminacion = ResizeArray<float>()
+    let public ListCantidadDays = ResizeArray<int>()
+    
+    // Rellenamos listas de estimadores
+    for i in ListasEstimadoresP do  // A element
+        Listproductos.Add(i.Producto)
+        Listecuaciones.Add(i.Ecuacion)
+        Listpendientes.Add(i.Pendiente)
+        ListejeY.Add(i.EjeY)
+        ListMAE.Add(i.MAE)
+        ListRMSE.Add(i.RMSE)
+        ListCoeDeterminacion.Add(i.CoeficienteDeDeterminacion)
+        ListCantidadDays.Add(i.Ndias)
+    //  Para Diferenciales con semana pasada use b element
+    let DifInLastWeek = snd3 DataForTablesAnalytics
+    let DiferencialesCalculados = ResizeArray<float>()
+    let DiaPredichoS = ResizeArray<DateTime>()
+    for h in DifInLastWeek do
+        DiferencialesCalculados.Add(h.DiferenciaProdReal)
+        DiaPredichoS.Add(h.Dia)
+    // para pedictores (new tabala, use data para pensar la nuw tabla dondese se copnsta con DateTime.Now.AddDays+7) c element
+    let PredicForNextWeek = trd3 DataForTablesAnalytics
+    let PredicCalculados = ResizeArray<float>()
+    let DiasPredichoS = ResizeArray<DateTime>()
+    for j in PredicForNextWeek do
+        PredicCalculados.Add(j.Cantidades)
+        DiasPredichoS.Add(j.Dia)
+    
+    
+        

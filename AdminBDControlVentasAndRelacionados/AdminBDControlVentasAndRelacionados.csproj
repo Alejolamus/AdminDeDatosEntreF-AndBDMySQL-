@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BaseDeDatosMySql\BaseDeDatosMySql.csproj" />
     <ProjectReference Include="..\ConsulasInBdMySql\ConsulasInBdMySql.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\TratadoresDeDataForAdminCSharp\TratadoresDeDataForAdminCSharp.fsproj" />
   </ItemGroup>
 

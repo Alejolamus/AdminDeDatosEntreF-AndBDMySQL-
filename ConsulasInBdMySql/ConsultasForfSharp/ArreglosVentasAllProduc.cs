@@ -40,7 +40,7 @@ namespace ConsulasInBdMySql.ConsultasForfSharp
                         var fechaVenta = context.Ventas
                             .Where(v => v.Id == unidad.IdVenta)
                             .Select(v => v.Fechadeventa)
-                            .FirstOrDefault(); // Para obtener una sola fecha DateTime
+                            .FirstOrDefault(); 
 
                         listaDeVentas.Add(new RegistroVenta
                         {

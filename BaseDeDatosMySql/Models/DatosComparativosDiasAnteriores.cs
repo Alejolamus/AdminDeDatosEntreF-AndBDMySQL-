@@ -18,8 +18,7 @@ namespace BaseDeDatosMySql.Models
         [Required]
         public int IdRegresionAct { get; set; }
         [ForeignKey("IdreGresionAct")]
-        [Required]
-        public int IdRegresionAnt { get; set; }
+        public int? IdRegresionAnt { get; set; }
         [ForeignKey("IdreGresionAnt")]
         [Required]
         public float CoeficienteDet { get; set; }

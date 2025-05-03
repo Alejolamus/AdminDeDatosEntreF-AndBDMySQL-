@@ -34,6 +34,6 @@ namespace BaseDeDatosMySql.Models
         public float DifSabadoAct { get; set; }
         [Required]
         public float DifDomigoAct { get; set; }
-
+        public List<PredicDifRealFaltante> PredicDifRealFaltantes { get; set; } = new List<PredicDifRealFaltante>();
     }
 }

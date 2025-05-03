@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DataTypes\predicion.fs" />
+    <Compile Include="DataTypes\VentasSemanales.fs" />
+    <Compile Include="DataTypes\DiferenciasPred.fs" />
     <Compile Include="DataTypes\DatosVentaDiariaUniProd.fs" />
     <Compile Include="DataTypes\RegistroRegresion.fs" />
     <Compile Include="DataTypes\DatosParaEstimadorDeRegresion.fs" />

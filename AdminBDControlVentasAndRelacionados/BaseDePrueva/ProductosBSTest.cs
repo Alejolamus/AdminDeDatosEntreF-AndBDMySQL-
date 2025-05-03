@@ -10,7 +10,7 @@ namespace AdminBDControlVentasAndRelacionados.BaseDePrueva
     {
         public static void Ejecutar()
         {
-            //llamo laslistas desde f#
+            //llamo las listas desde f#
             var productosTestBdProv = DataBDtest.ProductosAddTestBase;
             var cantidadesTestBdProv = DataBDtest.CantidadesEnBodegaTestBase;
             var preciosTestBdProv = DataBDtest.PreciosTestBase;
